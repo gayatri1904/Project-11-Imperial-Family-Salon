@@ -3,7 +3,7 @@ import logo from '../MyResources/logo.png'
 import '../MyResources/NavBar.css';
 import MediaQuery from 'react-responsive';
 import Navbar from 'react-bootstrap/Navbar';
-import Appointment from './Appointment';
+
 
 export default function NavBar() {
   const scrollDown = () => {
