@@ -1,0 +1,296 @@
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 80px;
+  }
+  
+  .inputField {
+    padding: 16px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .messageField {
+    padding-left: 16px;
+    padding-top: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+  }
+  
+  .label {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .error {
+    position: relative;
+    bottom: 5px;
+    font-size: 13px;
+    color: red;
+    display: none;
+    text-align: left;
+  }
+  
+  .inputField:invalid[focused="true"] {
+    border: 1px solid red;
+  }
+  .inputField:invalid[focused="true"] ~.error {
+    display: block;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+  .App{
+    background-image:url(https://ik.imagekit.io/99djpd8k3/bg_TPC/bg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670257388829);
+    height:100vh;
+    background-position:bottom;
+    background-size:cover;
+  }
+  .contact-us {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+    margin-top: 6%;
+  }
+  
+  .contact-us .title {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(65, 211, 59);
+    font-weight: 700;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-container {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .contact-container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-container .content .left-side {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 15px; */
+    position: relative;
+  }
+  /* 
+  .left-side::before{
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+  } */
+  
+  .content .left-side .details {
+    margin: 14px;
+    text-align: center;
+  }
+  .content .left-side .details i {
+    font-size: 30px;
+    color: #18d26e;
+    margin-bottom: 10px;
+  }
+  .content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 600;
+    color: #18d26e;
+    font-family: "Poppins";
+  }
+  .content .left-side .details .text-one,
+  .content .left-side .details .text-two {
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Poppins";
+    font-style: none;
+  }
+  .contact-container .content .right-side {
+    width: 30%;
+    padding: 1rem 0rem;
+    font-family: "Poppins";
+  }
+  .content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: green;
+  }
+  /* .right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+  } */
+  /* .right-side .input-box input,
+  .right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #f0f1f8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+  } */
+  /* .right-side .message-box {
+    min-height: 110px;
+  } */
+  /* .right-side .input-box textarea {
+    padding-top: 6px;
+  } */
+  /* .right-side .button {
+    display: inline-block;
+    margin-top: 12px;
+  } */
+  .buttonok {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    background: green;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 18%;
+    width: 9vw;
+    background-color: #1ae21a;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 950px) {
+    .App{
+      background: white;
+    }
+    .contact-us .title {
+      margin-top: 6%;
+      font-size: 2.5rem;
+    }
+    .contact-container {
+      width: 90%;
+      padding: 0px 30px 0px 30px;
+    }
+    .contact-container .content .right-side {
+      width: 40%;
+      margin-left: 55px;
+    }
+  }
+  
+  @media (max-width: 820px) {
+    .contact-us {
+      margin-top: 17%;
+    }
+    .contact-container .content {
+      flex-direction: column;
+    }
+    .contact-container .content .left-side {
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .contact-container .content .left-side::before {
+      display: none;
+    }
+    .contact-container .content .right-side {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  a:hover {
+    color: #3acf35;
+  }
+  
+  #map {
+    /* float: right; */
+    padding: 2rem 0rem;
+  }
+  
+  .sub-text {
+    font-size: 0.9rem;
+    padding: 0.5rem 0rem;
+  }
+  
+  .message {
+    padding: 0rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  .message .success {
+    font-size: 1rem;
+    color: green;
+    position: absolute;
+    animation: buttons 0.3s linear;
+  }
+  .form{
+    width: 25vw;
+    background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg);
+    margin-left: 23vw;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    height: 70vh;
+    margin-left: 51vw;
+  }
+  @media (max-width:600px) {
+    .inputField{
+      padding-left: 16px;
+      margin: 5px 0px;
+      border-radius: 5px;
+      border: 1px solid gray;
+      font-size: 15px;
+      height: 50px;
+      margin-left: -21px;
+      width: 270px;
+    }
+    .form{
+      width: 84vw;
+      margin-left: 23vw;
+      height: 60vh;
+      margin-left: 8vw;
+    }
+    .messageField{
+      margin-left: -22px;
+      width: 270px;
+    }
+    .buttonok{
+      width: 40vw;
+    }
+    .error{
+      margin-left: -15px;
+    }
+  }
+  
+  

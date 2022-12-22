@@ -1,0 +1,16 @@
+.staff-head{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -25px;
+    padding-top: 10px;
+    font-family: 'BebasNeue';
+    letter-spacing: 0.1rem;
+}
+.staff-outer-box{
+    margin-top: 20px;
+}
+@media (min-width:1224px) {
+    .staff-head{
+        font-size: 3rem;
+    }
+}

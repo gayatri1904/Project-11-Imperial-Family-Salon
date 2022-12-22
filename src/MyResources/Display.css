@@ -1,0 +1,10 @@
+.imageDisplay{
+    width: 100vw;
+    margin-top: 75px;
+}
+@media (min-width:1224px) {
+    .imageDisplay{
+        height: 70vh;
+    }
+    
+}

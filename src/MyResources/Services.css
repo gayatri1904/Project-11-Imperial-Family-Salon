@@ -1,0 +1,40 @@
+.service-head{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -25px;
+    padding-top: 10px;
+    font-family: 'BebasNeue';
+    letter-spacing: 0.1rem;
+}
+.cardBodyMy{
+    width: 0px;
+    border-radius: 50%;
+}
+.service-carousel{
+    margin-top: 10%;
+}
+.card-outer{
+    background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg');
+    height:30vh;
+    display:flex;
+    border-radius:15px;
+    width:94vw;
+    margin-left:3vw;
+}
+@media (min-width:1224px) {
+    .service-head{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: -25px;
+        padding-top: 20px;
+        font-family: 'BebasNeue';
+        letter-spacing: 0.1rem;
+    }
+    .service-carousel{
+        margin-top: 3%;
+    }
+    .card-outer{
+        height: 50vh;
+        background-size:cover;
+    }
+}
