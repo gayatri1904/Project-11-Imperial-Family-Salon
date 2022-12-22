@@ -273,7 +273,7 @@
       font-size: 15px;
       height: 50px;
       margin-left: -21px;
-      width: 270px;
+      width: 100%;
     }
     .form{
       width: 84vw;
@@ -283,7 +283,7 @@
     }
     .messageField{
       margin-left: -22px;
-      width: 270px;
+      width: 100%;
     }
     .buttonok{
       width: 40vw;

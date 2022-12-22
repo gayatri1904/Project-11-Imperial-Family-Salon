@@ -19,12 +19,13 @@ footer .content .top {
 	color: #fff;
 	font-size: 30px;
 }
-.content .top .media-icons {
+.media-icons {
 	display: flex;
+	margin-top: 25px;
 }
 .content .top .media-icons a {
 	height: 40px;
-	width: 40px;
+	width: 60px;
 	margin: 0 8px;
 	border-radius: 50%;
 	text-align: center;
@@ -107,7 +108,7 @@ footer .content .link-boxes .box {
 		margin-top: 10px;
 	}
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
 	footer {
 		position: relative;
 	}
@@ -158,6 +159,9 @@ a.social {
 	margin: 0 1rem;
 	transition: transform 250ms;
 	display: inline-block;
+	position: relative;
+	bottom: 15px;
+	z-index: 2;
 }
 
 a.social:hover {
