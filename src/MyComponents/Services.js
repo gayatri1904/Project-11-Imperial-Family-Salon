@@ -53,14 +53,14 @@ export default function Services() {
       </Carousel.Item>
       <Carousel.Item>
       <div className='card-outer'>
-          <Card imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Haircut'}/>
-          <Card imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Haircut'}/>
+          <Card imgsrc={'https://thumbs.dreamstime.com/b/nails-manicure-26371795.jpg'} title={'Manicure'}/>
+          <Card imgsrc={'https://img.freepik.com/premium-photo/pedicure-moisturizing-cram-after-foot-rasp_79295-4791.jpg?w=2000'} title={'Pedicure'}/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
       <div className='card-outer'>
-          <Card imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Haircut'}/>
-          <Card imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Haircut'}/>
+          <Card imgsrc={'https://media.istockphoto.com/id/1098349892/photo/cosmetologist-using-brush-while-putting-white-clay-mask-on-male-face.jpg?s=612x612&w=0&k=20&c=Q7c3oHeLAH-TYOGTkUv3C-5neNfQkMIkrSWlCJUseJw='} title={'Male Facial'}/>
+          <Card imgsrc={'https://thumbs.dreamstime.com/b/woman-facial-mask-beauty-salon-22945999.jpg'} title={'Female Facial'}/>
         </div>
       </Carousel.Item>
     </Carousel>

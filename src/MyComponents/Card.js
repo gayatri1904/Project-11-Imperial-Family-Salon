@@ -10,7 +10,7 @@ const Card = (props) => {
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"100px",height:"100px",borderRadius:"50%",border:"4px solid white"}} />
 					<center>
 					<div className='cardBodyMy'>
-						<h5 className="card-title font-weight-bold" style={{color:"white",textAlign:"center",width:"70px",paddingTop:"10px"}}>{props.title}</h5>
+						<h5 className="card-title font-weight-bold" style={{color:"white",textAlign:"center",width:"100px",paddingTop:"10px",marginLeft:"-15px"}}>{props.title}</h5>
 					</div>
 					</center>
 				</div>

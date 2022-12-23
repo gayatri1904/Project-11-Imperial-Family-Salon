@@ -7,9 +7,9 @@ export default function Staff() {
     <div className='staff-outer-box'>
     <h1 className='staff-head'>Staff Members</h1>
     <div style={{display:"flex"}}>
-    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Radhika Siddhu'}/>
-    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Rohan'}/>
-    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Kamini'}/>
+    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Radhika Siddhu'} post={'~Beautician'}/>
+    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Rohan Hujare'} post={'~Hair Dresser'}/>
+    <StaffCard imgsrc={'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'} title={'Kamini Durga'} post={'~Beautician'}/>
     </div>
     </div>
     </>
