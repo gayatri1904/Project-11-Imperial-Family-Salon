@@ -1,28 +1,27 @@
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import ExpandLessIcon from "@material-ui/icons/ExpandLess";
-import { useStyles } from "./AccordionStyles";
+import {MdExpandLess } from "react-icons/md";
+import {MdExpandMore } from "react-icons/md";
+import "./AccordionStyles.css";
 const AccordionItem = ({ item, open,handleExpandMore, handleExpandLess }) => {
-  const classes = useStyles();
 
   return (
     <>
-    <div onClick={() => {open?(handleExpandLess(item)):(handleExpandMore(item))}} className={classes.card}>
-      <div className={classes.titleContainer}>
-        <h3 className={classes.title}>{item.title.slice(0, 30)}</h3>
+    <div onClick={() => {open?(handleExpandLess(item)):(handleExpandMore(item))}} className='card'>
+      <div className='titleContainer'>
+        <h3 className='title'>{item.title.slice(0, 30)}</h3>
         {open ? (
-            <ExpandLessIcon
-            className={classes.expandBtn}
+            <MdExpandLess
+            className='expandBtn'
             onClick={() => handleExpandLess(item)}
           />
         ) : (
-          <ExpandMoreIcon
-            className={classes.expandBtn}
+          <MdExpandMore
+            className='expandBtn'
             onClick={() => handleExpandMore(item)}
           />
         )}
       </div>
       <div>
-      {open && <p className={classes.desc}>{item.description} </p>}
+      {open && <p className='desc'>{item.description} </p>}
     </div>
     </div>
     </>

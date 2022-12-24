@@ -1,9 +1,8 @@
 import { useState } from "react";
 import AccordionItem from "./AccordionItem";
-import { useStyles } from "./AccordionStyles";
+import './AccordionStyles.css';
 
 const Accordion = ({ data, openAll}) => {
-  const classes = useStyles();
 
   const [items, setItems] = useState(
     data.map((d) => ({
@@ -59,7 +58,7 @@ const Accordion = ({ data, openAll}) => {
 
   return (
     <>
-    <div className={classes.accordion}>
+    <div className='accordion'>
       {items.map((item) => (
         <AccordionItem
           key={item.id}

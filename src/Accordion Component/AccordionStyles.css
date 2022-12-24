@@ -1,0 +1,69 @@
+.accordion{
+  display:flex;
+  flex-direction: column;
+    gap: 1.25em;
+    padding: 15.5em;
+    padding-top:1rem;
+    background: white;
+    border-radius: 5px;
+    margin-top:20px;
+}
+.card{
+  border-radius: 10px;
+    background: white;
+    box-shadow: 0 1px 10px grey;
+}
+.titleContainer{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    cursor:pointer;
+}
+.title{
+  color: black;
+    font-size: 1.25rem;
+    text-transform:uppercase;
+    padding-left:15px;
+    margin-top:5px;
+    width:800px;
+    text-align:center;
+}
+.desc{
+  color: black;
+    font-size: 1.25rem;
+    padding: 15px;
+    text-align:justify;
+}
+.expandBtn{
+  font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+    position:relative;
+    left:100px;
+}
+@media (max-width:600px) {
+  .accordion{
+    padding: 2.5em;
+      padding-top:2%;
+      margin-bottom:0px
+  }
+  .titleContainer{
+    height:69px;
+      margin-bottom:-15px;
+  }
+  .title{
+    font-size:0.8rem;
+      margin-top:-8px;
+      font-weight:700;
+  }
+  .desc{
+    font-size:1rem;
+      margin-top:-30px;
+  }
+  .expandBtn{
+    left:0%;
+      margin-top:-14px
+  }
+}
+
