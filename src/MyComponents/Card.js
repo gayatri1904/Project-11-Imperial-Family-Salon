@@ -6,7 +6,7 @@ const Card = (props) => {
 		<>
 			<MediaQuery maxDeviceWidth={600}>
 			<div className="col-md-3 mx-auto cardBorder" style={{flexDirection:"row",paddingTop:"54px"}}>
-				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"transparent",position:"relative",right:"35px",border:"none"}}>
+				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"transparent",position:"relative",right:"35px",border:"none",boxShadow:"none"}}>
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"100px",height:"100px",borderRadius:"50%",border:"4px solid white"}} />
 					<center>
 					<div className='cardBodyMy'>
@@ -18,7 +18,7 @@ const Card = (props) => {
 			</MediaQuery>
 			<MediaQuery minDeviceWidth={1224}>
 			<div className="col-md-3 mx-auto cardBorder" style={{flexDirection:"row",paddingTop:"54px"}}>
-				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"transparent",position:"relative",right:"70px",border:"none",marginTop:"10%"}}>
+				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"transparent",position:"relative",right:"70px",border:"none",marginTop:"10%",boxShadow:"none"}}>
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"150px",height:"150px",borderRadius:"50%",border:"4px solid white",marginTop:"40px"}} />
 					<center>
 					<div className='cardBodyMy' style={{width:"50px"}}>
