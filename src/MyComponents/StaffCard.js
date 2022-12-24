@@ -20,7 +20,7 @@ export default function StaffCard(props) {
 			<MediaQuery minDeviceWidth={1224}>
 			<div className="col-md-3 mx-auto cardBorder" style={{flexDirection:"row",paddingTop:"54px"}}  data-aos="fade-down">
 				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"white",position:"relative",right:"70px",border:"none"}}>
-					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"150px",height:"150px",borderRadius:"50%"}} />
+					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"150px",height:"150px",borderRadius:"50%",border:"0"}} />
 					<center>
 					<div className='cardBodyMy' style={{width:"5px"}}>
 						<h5 className="card-title font-weight-bold" style={{color:"black",textAlign:"center",width:"200px",paddingTop:"10px",marginLeft:"-37px"}}>{props.title}</h5>
