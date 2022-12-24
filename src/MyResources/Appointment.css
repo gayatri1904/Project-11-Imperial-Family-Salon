@@ -10,6 +10,7 @@
 }
 .app-outer-box{
     margin-top: 50px;
+    margin-bottom: -50px;
 }
 .form-outer-box{
     width: 80vw;

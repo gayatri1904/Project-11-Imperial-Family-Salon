@@ -1,0 +1,25 @@
+.accordion-body{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 1rem 1rem;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.faq-head{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: -25px;
+    padding-top: 10px;
+    font-family: 'BebasNeue';
+    letter-spacing: 0.1rem;
+}
+@media (max-width:600px) {
+    .faq-head{
+        margin-top: 40px;
+    }
+    
+}
