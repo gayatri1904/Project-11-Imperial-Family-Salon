@@ -4,8 +4,8 @@ import MediaQuery from "react-responsive";
 const Card = (props) => {
 	return (
 		<>
-			<MediaQuery maxDeviceWidth={600}>
-			<div className="col-md-3 mx-auto cardBorder" style={{flexDirection:"row",paddingTop:"54px"}}>
+			<MediaQuery maxDeviceWidth={800}>
+			<div className="col-md-3 mx-auto cardBorder" style={{flexDirection:"row",paddingTop:"13%"}}>
 				<div className="card my-1 mx-auto recruitersCard" style={{width:'30px',backgroundColor:"transparent",position:"relative",right:"35px",border:"none",boxShadow:"none"}}>
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"100px",height:"100px",borderRadius:"50%",border:"4px solid white"}} />
 					<center>

@@ -1,6 +1,6 @@
 .service-head{
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: -25px;
     padding-top: 10px;
     font-family: 'BebasNeue';
@@ -12,6 +12,7 @@
 }
 .service-carousel{
     margin-top: 10%;
+    overflow-x: visible;
 }
 .card-outer{
     background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg');
@@ -20,6 +21,9 @@
     border-radius:15px;
     width:94vw;
     margin-left:3vw;
+}
+.carousel-indicators{
+    display: none;
 }
 @media (min-width:1224px) {
     .service-head{

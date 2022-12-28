@@ -143,7 +143,7 @@ export default function Appointment() {
                           value={time}
                           required={true}
                           onChange={(e) => setTime(e.target.value)}
-                          style={{height:"48px",'margin-top':'5px',marginLeft:"-21px",width:"280px",backgroundColor:"white",textAlign:"left"}}
+                          style={{height:"48px",'margin-top':'5px',marginLeft:"-21px",width:"68vw",backgroundColor:"white",textAlign:"left"}}
                         >
                           <MenuItem value="11 AM">11 AM</MenuItem>
                           <MenuItem value="12 PM">12 PM</MenuItem>

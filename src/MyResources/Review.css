@@ -57,6 +57,7 @@
 	overflow: hidden;
 	margin-top: 25px;
 	margin-bottom: -100px;
+	pointer-events: none;
   }
   
   .testi-body {
@@ -124,7 +125,7 @@
   
   @media only screen and (max-width: 768px) {
 	.testimonials-text p {
-	  height: 13rem;
+	  height: 14rem;
 	  font-size: 16px;
 	}
 	.carousel .control-dots {

@@ -15,9 +15,9 @@ const Cardtest = (props) => {
                   </div>
                   <div class="testimonials-text">
                     <div class="testi-name">
-                      <h3 style={{fontSize:"32px "}}>{props.name}</h3>
+                      <h3 style={{fontSize:"32px"}}>{props.name}</h3>
                     </div>
-                    <p>{props.msg}</p>
+                    <p style={{paddingBottom:"10px"}}>{props.msg}</p>
                   </div>
                 </div>
               </div>

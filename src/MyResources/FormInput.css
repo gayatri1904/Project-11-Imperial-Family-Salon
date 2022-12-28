@@ -173,7 +173,7 @@
     transition: all 0.3s ease;
     margin-top: 18%;
     width: 9vw;
-    background-color: #1ae21a;
+    background-color: #242424;
     font-weight: 600;
     font-size: 22px;
     border-radius: 10px;
@@ -261,7 +261,6 @@
     padding-bottom: 20px;
     margin-bottom: 50px;
     margin-top: 25px;
-    height: 70vh;
     margin-left: 51vw;
   }
   @media (max-width:600px) {
@@ -273,17 +272,16 @@
       font-size: 15px;
       height: 50px;
       margin-left: -21px;
-      width: 100%;
+      width: 68vw;
     }
     .form{
       width: 84vw;
       margin-left: 23vw;
-      height: 60vh;
       margin-left: 8vw;
     }
     .messageField{
       margin-left: -22px;
-      width: 100%;
+      width: 68vw;
     }
     .buttonok{
       width: 40vw;

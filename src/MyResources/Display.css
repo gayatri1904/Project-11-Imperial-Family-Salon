@@ -1,10 +1,11 @@
 .imageDisplay{
     width: 100vw;
-    margin-top: 75px;
+    margin-top: 18.5%;
 }
 @media (min-width:1224px) {
     .imageDisplay{
-        height: 70vh;
+        height: 80vh;
+        margin-top: 5.5%;
     }
     
 }

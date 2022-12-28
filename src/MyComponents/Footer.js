@@ -170,7 +170,7 @@ const Footer = () => {
 								width="300"
 								height="200"
 								frameborder="0"
-								style={{marginLeft:"17vw",marginBottom:"50px",marginTop:"-50px"}}
+								style={{marginLeft:"13vw",marginBottom:"50px",marginTop:"-50px"}}
 							></iframe>
 			</MediaQuery>
 			</footer>
