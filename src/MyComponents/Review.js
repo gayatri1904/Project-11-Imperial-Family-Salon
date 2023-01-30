@@ -6,7 +6,7 @@ import '../MyResources/Review.css';
 export default function Review() {
   return (
     <>
-    <h1 className='service-head'>Reviews</h1>
+    <h1 className='review-head'>Reviews</h1>
     <section class="testimonials-body">
       <div>
         <ReviewCarousel />

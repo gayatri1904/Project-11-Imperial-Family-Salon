@@ -22,7 +22,7 @@ const Data = [
     },
     {
       imgsrc:
-        "https://pps.whatsapp.net/v/t61.24694-24/170778368_430124139201561_4181104964242761024_n.jpg?ccb=11-4&oh=01_AdTn5OAHcCy5RJaxQRr0iT3QBvMnP9CnU7hYhMMzJFbUVg&oe=63B3054F",
+        "https://ik.imagekit.io/ok2wgebfs/vipul.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673285515380",
       msg:
         "Friendly staff and everything is just perfect 💯. Plzz Do visit !!!! ✨ ",
       name: "Vipul Patel"

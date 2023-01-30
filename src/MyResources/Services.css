@@ -16,14 +16,19 @@
 }
 .card-outer{
     background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg');
-    height:30vh;
+    height: 250px;
     display:flex;
     border-radius:15px;
-    width:94vw;
+    width:90vw;
     margin-left:3vw;
+    margin: auto;
+}
+.card-title{
+    font-size: 1.1rem !important;
+    width: 108px !important;
 }
 .carousel-indicators{
-    display: none;
+    visibility: hidden !important;
 }
 @media (min-width:1224px) {
     .service-head{
@@ -38,7 +43,20 @@
         margin-top: 3%;
     }
     .card-outer{
-        height: 50vh;
+        height: 370px;
         background-size:cover;
+    }
+    .carousel-control-prev{
+        left:-20px;
+    }
+    .carousel-control-next{
+        right:-20px;
+    }
+    .card-title{
+        font-size: 1.4rem !important;
+        width: 153px !important;
+    }
+    .carousel-indicators{
+        visibility: visible !important;
     }
 }

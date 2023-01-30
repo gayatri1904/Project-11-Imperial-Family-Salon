@@ -4,8 +4,13 @@
 }
 @media (min-width:1224px) {
     .imageDisplay{
-        height: 80vh;
-        margin-top: 5.5%;
-    }
-    
+        height: 100vh;
+        margin-top: -1%;
+    }   
+}
+@media (max-width:600px) {
+    .imageDisplay{
+        height: 44vh;
+        margin-top: 16.5%;
+    }   
 }

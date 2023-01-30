@@ -37,14 +37,14 @@ export default function Appointment() {
             placeholder: "Contact Number",
             required: true,
             pattern: "[0-9]{10}"
+          },
+        {
+            id: 3,
+            name: "Date",
+            type: "date",
+            placeholder: "Date",
+            required:true
           }
-        // {
-        //     id: 3,
-        //     name: "Timing",
-        //     type: "text",
-        //     placeholder: "Timing",
-        //     required:true
-        //   },
         // {
         //   id: 4,
         //   name: "Message",
@@ -61,7 +61,7 @@ export default function Appointment() {
           formDatab.append("Timing", time);
           formDatab.append("Service", service);
           fetch(
-              "https://script.google.com/macros/s/AKfycbyxVabDk7jTWTTUuzpQAKzlApjrl13aLlf4aEl-H7wzZ1irKpRZQgNhV9xdMtpRvZHS/exec",
+              "https://script.google.com/macros/s/AKfycbw9wjQ8J8hXxp9N650RpUGpVnH_RHVjtS_XoXsj4ipJtP2jIHmRfNjZbWHWWTNlZ-Qb/exec",
               {
                 method: "POST",
                 body: formDatab
@@ -97,7 +97,7 @@ export default function Appointment() {
                           value={time}
                           required={true}
                           onChange={(e) => setTime(e.target.value)}
-                          style={{height:"48px",'margin-top':'5px',marginLeft:"-5px",width:"276px",backgroundColor:"white",textAlign:"left",fontSize:"15px"}}
+                          style={{height:"48px",'margin-top':'5px',marginLeft:"-5px",width:"280px",backgroundColor:"white",textAlign:"left",fontSize:"15px"}}
                         >
                           <MenuItem value="11 AM">11 AM</MenuItem>
                           <MenuItem value="12 PM">12 PM</MenuItem>

@@ -20,14 +20,15 @@
     margin-top: 20px;
     margin-bottom: 50px;
     box-shadow: 3px 3px #b6b3b3dd;
-    height: 77vh;
+    height: 607px;
     position: relative;
     bottom: 20px;
 }
 .left-img{
-    width: 680px;
-    margin-top: -54%;
+    width: 44vw;
+    margin-top: 74px;
     padding-left: 51px;
+    height: 450px;
 }
 .timeInput{
     width: 270px;

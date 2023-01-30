@@ -122,6 +122,14 @@
     font-family: 'BebasNeue';
 	font-weight: 700;
   }
+  .review-head{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: -25px;
+    padding-top: 10px;
+    font-family: 'BebasNeue';
+    letter-spacing: 0.1rem;
+}
   
   @media only screen and (max-width: 768px) {
 	.testimonials-text p {
@@ -130,15 +138,20 @@
 	}
 	.carousel .control-dots {
 		bottom: 60px !important;
+		pointer-events:visible;
 	}
 	.carousel .control-dots .dot{
 		background-color: grey !important;
+	}
+	.review-head{
+		margin-top: 158%;
 	}
   }
   
 @media (min-width: 960px){
   .carousel .control-dots{
-		bottom:130px !important
+		top:270px !important;
+		pointer-events:visible;
   }
   .carousel .control-dots .dot{
 		background-color: grey !important;

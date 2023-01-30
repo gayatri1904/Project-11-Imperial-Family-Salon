@@ -171,8 +171,8 @@
     background: green;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 18%;
-    width: 9vw;
+    margin-top: 6%;
+    width: 100%;
     background-color: #242424;
     font-weight: 600;
     font-size: 22px;
@@ -250,7 +250,7 @@
     animation: buttons 0.3s linear;
   }
   .form{
-    width: 25vw;
+    width: 380px;
     background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg);
     margin-left: 23vw;
     text-align: center;
@@ -261,7 +261,8 @@
     padding-bottom: 20px;
     margin-bottom: 50px;
     margin-top: 25px;
-    margin-left: 51vw;
+    right: 5%;
+    position: absolute;
   }
   @media (max-width:600px) {
     .inputField{
@@ -278,13 +279,14 @@
       width: 84vw;
       margin-left: 23vw;
       margin-left: 8vw;
+      right:8%
     }
     .messageField{
       margin-left: -22px;
       width: 68vw;
     }
     .buttonok{
-      width: 40vw;
+      width: 100%;
     }
     .error{
       margin-left: -15px;

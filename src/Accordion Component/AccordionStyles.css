@@ -13,6 +13,7 @@
   border-radius: 10px;
     background: white;
     box-shadow: 0 1px 5px grey;
+    margin: 0 -15%;
 }
 .titleContainer{
   display: flex;
@@ -40,12 +41,13 @@
   font-size: 1.5rem;
     color: black;
     cursor: pointer;
-    position:relative;
-    left:100px;
+    position:absolute;
+    right: 3%;
 }
 @media (max-width:600px) {
   .card{
     box-shadow: 0 1px 5px grey;
+    margin: 0;
   }
   .accordion{
     padding: 2.5em;
@@ -67,9 +69,10 @@
       margin-top:-30px;
   }
   .expandBtn{
-    left:0%;
+    left:-3%;
       margin-top:-14px;
       font-size: 5.5rem;
+      position: relative;
   }
 }
 

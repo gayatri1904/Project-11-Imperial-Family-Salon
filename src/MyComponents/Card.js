@@ -1,5 +1,6 @@
 import React from "react";
 import MediaQuery from "react-responsive";
+import '../MyResources/Services.css'
 
 const Card = (props) => {
 	return (
@@ -22,7 +23,7 @@ const Card = (props) => {
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"150px",height:"150px",borderRadius:"50%",border:"4px solid white",marginTop:"40px"}} />
 					<center>
 					<div className='cardBodyMy' style={{width:"50px"}}>
-						<h5 className="card-title font-weight-bold" style={{color:"white",marginLeft:"2%",width:"150px",paddingTop:"10px"}}>{props.title}</h5>
+						<h5 className="card-title font-weight-bold" style={{color:"white",marginLeft:"2%",paddingTop:"10px"}}>{props.title}</h5>
 					</div>
 					</center>
 				</div>

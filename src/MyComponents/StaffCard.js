@@ -10,8 +10,8 @@ export default function StaffCard(props) {
 					<img src={props.imgsrc}  alt={props.imgsrc} style={{width:"100px",height:"100px",borderRadius:"50%"}} />
 					<center>
 					<div className='cardBodyMy' style={{width:"5px"}}>
-						<h5 className="card-title font-weight-bold" style={{color:"black",textAlign:"center",width:"75px",paddingTop:"10px"}}>{props.title}</h5>
-						<h3 className="card-title font-weight-bold" style={{color:"grey",textAlign:"center",width:"100px",fontSize:"1rem",marginLeft:"-15px"}}>{props.post}</h3>
+						<h5 className="card-title font-weight-bold" style={{color:"black",textAlign:"center",width:"75px",paddingTop:"10px",fontSize:"1.1rem"}}>{props.title}</h5>
+						<h3 className="card-title font-weight-bold" style={{color:"grey",textAlign:"center",width:"100px",fontSize:"0.9rem",marginLeft:"-15px"}}>{props.post}</h3>
 					</div>
 					</center>
 				</div>
