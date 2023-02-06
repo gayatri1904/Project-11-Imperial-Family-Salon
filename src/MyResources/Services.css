@@ -30,6 +30,7 @@
 .carousel-indicators{
     visibility: hidden !important;
 }
+
 @media (min-width:800px) {
     .service-head{
         text-align: center;

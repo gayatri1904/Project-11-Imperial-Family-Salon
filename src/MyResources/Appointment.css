@@ -37,19 +37,6 @@
 .css-6hp17o-MuiList-root-MuiMenu-list{
     height:185px;
 }
-.select-date-text{
-    margin-top: -44px;
-    position: relative;
-    bottom: 45px;
-    text-align: left;
-    color: gray;
-    font-size: 14px;
-    background: white;
-    width: 82px;
-    text-align: center;
-    border: 1px solid;
-    left: -7px;
-}
 @media (max-width:600px) {
     .app-head{
         font-size: 2.5rem;

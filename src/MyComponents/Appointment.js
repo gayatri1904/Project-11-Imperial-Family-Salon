@@ -140,7 +140,6 @@ export default function Appointment() {
                         onChange={onChange}
                     />
                     ))}
-                    {/* <p className='select-date-text'>Select Date</p> */}
                     <Box sx={{ minWidth: 80 }}>
                       <FormControl className="timeInput">
                       <InputLabel id="demo-simple-select-label" style={{'position':"absolute",marginLeft:"-18px"}}>Select Timing</InputLabel>

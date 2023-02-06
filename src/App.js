@@ -8,6 +8,7 @@ import Footer from "./MyComponents/Footer";
 import Review from './MyComponents/Review';
 // import FAQ from "./MyComponents/FAQ";
 import Popup from "./MyComponents/Popup";
+import About from "./MyComponents/About";
 import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,7 +20,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={[<NavBar/>,<Display/>,<Services/>,<Packages/>,<Appointment/>,<Review/>,<Footer/>]} />
+        <Route path="/" element={[<NavBar/>,<Display/>,<About/>,<Services/>,<Packages/>,<Appointment/>,<Review/>,<Footer/>]} />
         <Route path="/submit" element={<Popup/>} />
       </Routes>
     </BrowserRouter>
