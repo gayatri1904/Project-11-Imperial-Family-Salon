@@ -21,7 +21,7 @@
     font-weight: 100;
     color: white;
 }
-@media (min-width:1224px) {
+@media (min-width:800px) {
     .nav-logo{
         margin-left: 2vw;
         height: 10vh;
@@ -36,6 +36,12 @@
         color: white;
     }
     .nav-button{
+        display: none;
+    }
+}
+@media (min-width:1100px) {
+    .nav-button{
+        display: inline;
         position: absolute;
         border-radius: 6px;
         padding: 7px 12px;

@@ -15,11 +15,13 @@
     display: flex;
     width: 100%;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 700px;
 }
 .package-card{
     background-image:url('https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-036.jpg');
     width: 400px;
-    height: 250px;
+    height: 300px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -33,12 +35,13 @@
 .package-name{
     font-family: 'BebasNeue';
     letter-spacing: 2px;
-    font-size: 3.5rem;
+    font-size: 2rem;
 }
 .package-price{
     font-family: 'BebasNeue';
     letter-spacing: 2px;
-    font-size: 3rem;
+    font-size: 2rem;
+    color: red;
 }
 .package-item{
     font-size: 30px;
@@ -53,9 +56,27 @@
     .package-cardbox{
         flex-direction: column;
         align-items: center;
+        flex-wrap: nowrap;
+        height: auto;
     }
     .package-card{
         width: 90%;
         margin-bottom: 35px;
+    }
+    .package-item{
+        font-size: 25px;
+    }
+    .package-name{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width:800px) {
+    .package-cardbox{
+        height: 1050px;
+    }
+}
+@media (min-width:1224px) {
+    .package-cardbox{
+        height: 700px;
     }
 }

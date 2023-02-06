@@ -13,7 +13,7 @@ const Footer = () => {
 	return (
 		<>
 			<footer>
-				<MediaQuery minDeviceWidth={1224}>
+				<MediaQuery minDeviceWidth={800}>
 				<div class="content">
 					<div class="top" style={{marginTop:"-50px"}}>
 						<div class="logo-details" style={{display:"flex"}}>
@@ -90,6 +90,7 @@ const Footer = () => {
 								height="400"
 								frameborder="0"
 								style={{marginLeft:"31vw",marginBottom:"50px",marginTop:"-50px"}}
+								className="footer-map"
 							></iframe>
 			</MediaQuery>
 
@@ -138,12 +139,6 @@ const Footer = () => {
 					</div>
 					<div class="link-boxes">
 						<ul class="box">
-							<li class="link_name">Owner</li>
-							<li>
-								<p style={{color:"white",fontSize:"12px"}}>Mangal Anil Pagare</p>
-							</li>
-						</ul>
-						<ul class="box">
 							<li class="link_name">Contact</li>
 							<li>
 								<p style={{color:"white",fontSize:"12px"}}>
@@ -154,6 +149,12 @@ const Footer = () => {
 							</li>
 							<li>
 								<p style={{color:"white",fontSize:"12px"}}>imperialfamilysalon@gmail .com</p>
+							</li>
+						</ul>
+						<ul class="box">
+							<li class="link_name">Owner</li>
+							<li>
+								<p style={{color:"white",fontSize:"12px"}}>Mangal Anil Pagare</p>
 							</li>
 						</ul>
 						<ul class="box">

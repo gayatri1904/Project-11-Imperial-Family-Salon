@@ -2,15 +2,21 @@
     width: 100vw;
     margin-top: 18.5%;
 }
+@media (min-width:800px) {
+    .imageDisplay{
+        height: 560px;
+        margin-top: 10%;
+    }   
+}
 @media (min-width:1224px) {
     .imageDisplay{
-        height: 100vh;
-        margin-top: -1%;
+        height: 800px;
+        margin-top: -5.5%;
     }   
 }
 @media (max-width:600px) {
     .imageDisplay{
-        height: 44vh;
+        height: 300px;
         margin-top: 16.5%;
     }   
 }

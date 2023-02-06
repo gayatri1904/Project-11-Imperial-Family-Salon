@@ -15,7 +15,7 @@ export default function Services() {
   return (
     <>
     <h1 className='service-head'>Services</h1>
-    <MediaQuery minDeviceWidth={1224}>
+    <MediaQuery minDeviceWidth={800}>
     <Carousel activeIndex={index} onSelect={handleSelect} className='service-carousel'>
       <Carousel.Item>
         <div className='card-outer'>
@@ -35,8 +35,9 @@ export default function Services() {
       </Carousel.Item>
       <Carousel.Item>
         <div className='card-outer'>
-        <Card imgsrc={'https://img.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_1157-27194.jpg'} title={'Global Hair Colour'}/>
-          <Card imgsrc={'https://www.matrix.com/~/media/images/hair-color-gallery/hair-color-looks/highlights/brown-highlights/brown-highlights-1.jpg'} title={'Highlights'}/>
+        
+        <Card imgsrc={'https://www.matrix.com/~/media/images/hair-color-gallery/hair-color-looks/highlights/brown-highlights/brown-highlights-1.jpg'} title={'Global Hair Colour'} />
+          <Card imgsrc={'https://img.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_1157-27194.jpg'} title={'Highlights'}/>
           <Card imgsrc={'https://www.southernliving.com/thmb/8APe8s5CdvG3cEU-eGKWqDTAFLc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1-1-222914ce303e454aaec07336a52514cc.jpg'} title={'Balayage'}/>
           <Card imgsrc={'https://i.pinimg.com/236x/21/cb/0e/21cb0e65d968e1f4ee689e2491b42822.jpg'} title={'Ombre/ Sombre'}/>
         </div>
@@ -99,8 +100,8 @@ export default function Services() {
       </Carousel.Item>
       <Carousel.Item>
       <div className='card-outer'>
-      <Card imgsrc={'https://img.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_1157-27194.jpg'} title={'Global Hair Colour'}/>
-          <Card imgsrc={'https://www.matrix.com/~/media/images/hair-color-gallery/hair-color-looks/highlights/brown-highlights/brown-highlights-1.jpg'} title={'Highlights'}/>
+      <Card imgsrc={'https://www.matrix.com/~/media/images/hair-color-gallery/hair-color-looks/highlights/brown-highlights/brown-highlights-1.jpg'} title={'Global Hair Colour'}/>
+          <Card imgsrc={'https://img.freepik.com/free-photo/hairdresser-colored-hair-her-client-hair-salon_1157-27194.jpg'} title={'Highlights'}/>
         </div>
       </Carousel.Item>
       <Carousel.Item>

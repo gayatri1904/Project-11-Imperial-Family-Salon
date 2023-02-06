@@ -51,12 +51,11 @@
 .testimonials-body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
+	height: 400px;
 	font-size: 13px;
 	text-align: center;
 	overflow: hidden;
 	margin-top: 25px;
-	margin-bottom: -100px;
 	pointer-events: none;
   }
   
@@ -144,11 +143,14 @@
 		background-color: grey !important;
 	}
 	.review-head{
-		margin-top: 158%;
+		margin-top: 630px;
+	}
+	.testimonials-body{
+		height: 420px;
 	}
   }
   
-@media (min-width: 960px){
+@media (min-width: 800px){
   .carousel .control-dots{
 		top:270px !important;
 		pointer-events:visible;

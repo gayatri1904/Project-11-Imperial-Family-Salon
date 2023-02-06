@@ -8,8 +8,14 @@ import { InputLabel } from "@mui/material";
 import { MenuItem } from "@mui/material";
 import { FormControl } from "@mui/material";
 import { Select } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 export default function Appointment() {
+  const navigate = useNavigate();
+
+  const navigateToSubmit = () => {
+    navigate("/submit");
+  };
   const [time, setTime] = useState();
   const [service, setService] = useState();
     const [values, setValues] = useState({
@@ -42,7 +48,7 @@ export default function Appointment() {
             id: 3,
             name: "Date",
             type: "date",
-            placeholder: "Date",
+            placeholder: "Select Date",
             required:true
           }
         // {
@@ -67,6 +73,7 @@ export default function Appointment() {
                 body: formDatab
               }
             );
+            navigateToSubmit();
       };
     
       const onChange = (e) => {
@@ -76,7 +83,7 @@ export default function Appointment() {
     <>
     <div className='app-outer-box' id='MyForm'>
     <h1 className='app-head'>Book Appointment</h1>
-    <MediaQuery minDeviceWidth={1224}>
+    <MediaQuery minDeviceWidth={800}>
     <div className='form-outer-box' data-aos="fade-right" data-aos-duration="1000" >
         <form name="myForm" className="form" onSubmit={(e) => Submit(e)}>
                     {inputs.map((input) => (
@@ -113,7 +120,7 @@ export default function Appointment() {
                       </FormControl>
                     </Box>
                     <div className='formInput' style={{height:"120px"}}>
-                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
+                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
                     </div>
                     <button className="buttonok" id="send" onclick="Submit()">
                     Submit
@@ -133,6 +140,7 @@ export default function Appointment() {
                         onChange={onChange}
                     />
                     ))}
+                    {/* <p className='select-date-text'>Select Date</p> */}
                     <Box sx={{ minWidth: 80 }}>
                       <FormControl className="timeInput">
                       <InputLabel id="demo-simple-select-label" style={{'position':"absolute",marginLeft:"-18px"}}>Select Timing</InputLabel>
@@ -159,7 +167,7 @@ export default function Appointment() {
                       </FormControl>
                     </Box>
                     <div className='formInput' style={{height:"120px"}}>
-                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
+                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
                     </div>
                     <button className="buttonok" id="send" onclick="Submit()">
                     Submit

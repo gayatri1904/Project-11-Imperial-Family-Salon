@@ -69,6 +69,7 @@ footer .content .link-boxes .box {
 	margin: 6px 0;
 	list-style: none;
     margin-top: -10px;
+	width: 200px;
 }
 .content .link-boxes .box li a {
 	color: #fff;
@@ -100,7 +101,7 @@ footer .content .link-boxes .box {
 	opacity: 1;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	footer .content .link-boxes {
 		flex-wrap: wrap;
 	}
@@ -188,4 +189,14 @@ a.instagram {
 
 a.Linkedin {
 	color: #14ca14 !important;
+}
+@media (min-width:800px) {
+	.footer-map{
+		margin-left: 20vw !important;
+	}
+}
+@media (min-width:1224px) {
+	.footer-map{
+		margin-left: 31vw !important;
+	}
 }

@@ -1,0 +1,64 @@
+.popup-box{
+    width: 50%;
+    height: 400px;
+    background: white;
+    position: relative;
+    bottom: 223px;
+    margin: auto;
+    margin-top: -55%;
+    z-index: 5;
+    border-radius: 20px;
+    text-align: center;
+}
+.close-btn{
+    color: red;
+    width: 60px;
+    display: block;
+    height: 46px;
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.book-gif{
+    width: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin-top: 60px;
+}
+.popup-head-text{
+    position: relative;
+    top: 40px;
+    font-family: 'BebasNeue';
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.popup-subtext{
+    position: relative;
+    top: 36px;
+    font-size: 1.5rem;
+    color: #74b13d;
+    font-weight: 500;
+}
+@media (max-width:600px) {
+    .popup-box{
+        width: 90%;
+        height: 280px;
+        margin-top: -72%;
+    }
+    .close-btn{
+        width: 50px;
+        height: 35px;
+    }
+    .book-gif{
+        width: 70px;
+        margin-top: 40px;
+    }
+    .popup-head-text{
+        font-size: 1.7rem;
+    }
+    .popup-subtext{
+        font-size: 1rem;
+        top: 40px;
+    }
+}
