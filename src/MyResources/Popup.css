@@ -43,8 +43,9 @@
 @media (max-width:600px) {
     .popup-box{
         width: 90%;
-        height: 280px;
-        margin-top: -72%;
+        height: 270px;
+        margin-top: -50%;
+        bottom: 400px;
     }
     .close-btn{
         width: 50px;

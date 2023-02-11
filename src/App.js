@@ -13,6 +13,8 @@ import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Packages from './MyComponents/Packages';
+import Feedback from "./MyComponents/Feedback";
+import FeedPopup from "./MyComponents/FeedPopup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   AOS.init()
@@ -21,7 +23,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={[<NavBar/>,<Display/>,<About/>,<Services/>,<Packages/>,<Appointment/>,<Review/>,<Footer/>]} />
+        <Route path="/feedback" element={[<NavBar/>,<Feedback/>]} />
         <Route path="/submit" element={<Popup/>} />
+        <Route path="/feedsubmit" element={<FeedPopup/>} />
       </Routes>
     </BrowserRouter>
     </>

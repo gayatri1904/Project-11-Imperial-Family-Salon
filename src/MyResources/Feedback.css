@@ -1,0 +1,68 @@
+body{
+    background-color: white;
+}
+.app-head{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    font-family: 'BebasNeue';
+    letter-spacing: 0.1rem;
+    position: relative;
+    bottom: 25px;
+}
+.app-outer-box{
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.form-outer-box{
+    width: 80vw;
+    border: 2px solid #b6b3b3dd;
+    border-radius: 15px;
+    margin-left: 10vw;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px #b6b3b3dd;
+    height: 607px;
+    position: relative;
+    bottom: 20px;
+}
+.left-img{
+    width: 44vw;
+    margin-top: 74px;
+    padding-left: 51px;
+    height: 450px;
+}
+.timeInput{
+    width: 270px;
+    height: 70px;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    height:185px;
+}
+@media (max-width:600px) {
+    .app-head{
+        font-size: 2rem;
+    }
+    .app-outer-box{
+        margin-top: 0px;
+    }
+    input[type="date"]::before{
+        color: gray;
+        font-size: 16px;
+        content: attr(placeholder);
+     }
+     input[type="date"]:focus::before {
+        content: "" !important;
+     }
+}
+@media (min-width:800px) {
+    .left-img{
+        width: 35vw;
+    }
+}
+@media (min-width:1224px) {
+    .left-img{
+        width: 44vw;
+    }
+}
