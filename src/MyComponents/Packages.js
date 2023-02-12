@@ -99,7 +99,7 @@ export default function Packages() {
       <div className='package-cardbox'>
         <div className='package-card' style={{transform:flip1}}  onClick={Package1}>
             <h1 className='package-name' style={{display:vis1}}>Women's Combo</h1>
-            <h3 className='package-price' style={{display:vis1}}>₹1199</h3>
+            <h3 className='package-price' style={{display:vis1}}>₹1099</h3>
             <div className='package-items' style={{display:visi1,transform:flip1}}>
                 <p className='package-item'>Cleanup</p>
                 <p className='package-item'>+</p>
