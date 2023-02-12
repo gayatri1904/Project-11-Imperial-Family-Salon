@@ -51,10 +51,25 @@ footer .content .link-boxes .box {
 	margin-bottom: 20px;
 	position: relative;
 }
+.footer-ele{
+	color: white;
+}
+.footer-ele:hover{
+	color: #14ca14;
+}
+.own-name{
+	color: white;
+}
+.own-name:hover{
+	color: #14ca14;
+}
 @media (max-width:600px) {
     .content .link-boxes .box .link_name {
         font-size: 16px;
     }
+	.footer-ele{
+		font-size: 12px;
+	}
 }
 .link-boxes .box .link_name::before {
 	content: "";

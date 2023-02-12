@@ -3,10 +3,10 @@ import Logo from "../MyResources/logo.png";
 import '../MyResources/Footer.css';
 import MediaQuery from "react-responsive";
 import {
-	faFacebook,
 	faInstagram,
 	faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
+import {FaPhoneAlt} from 'react-icons/fa';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
@@ -24,12 +24,12 @@ const Footer = () => {
 							<a
 								class="facebook social"
 								target="_blank"
-								href="https://www.facebook.com/tpc.pce"
+								href="tel:+918369650620"
 								rel="noreferrer"
 							>
 								<i>
 									{" "}
-									<FontAwesomeIcon icon={faFacebook} size="2x" />
+									<FaPhoneAlt size="28px" style={{position:"relative",bottom:"5px"}}/>
 								</i>
 							</a>
 							<a
@@ -59,7 +59,7 @@ const Footer = () => {
 						<ul class="box">
 							<li class="link_name">Owner</li>
 							<li>
-								<p style={{color:"white"}}>Mangal Anil Pagare</p>
+								<p className="own-name">Mangal Anil Pagare</p>
 							</li>
 						</ul>
 						<ul class="box">
@@ -69,16 +69,22 @@ const Footer = () => {
 							</li>
 						</ul>
 						<ul class="box">
-							<li class="link_name">Contact</li>
+						<li class="link_name">Contact</li>
 							<li>
-								<p style={{color:"white"}}>
+								<a href="tel:+919920422894" style={{textDecoration:"none"}}>
+								<p className="footer-ele">
 									9920422894</p>
+								</a>
 							</li>
 							<li>
-								<p style={{color:"white"}}>8369650620</p>
+								<a href="tel:+918369650620" style={{textDecoration:"none"}}>
+								<p className="footer-ele">8369650620</p>
+								</a>
 							</li>
 							<li>
-								<p style={{color:"white"}}>imperialfamilysalon@gmail.com</p>
+								<a href="mailto:imperialfamilysalon@gmail.com" style={{textDecoration:"none"}}>
+								<p className="footer-ele">imperialfamilysalon@gmail.com</p>
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -102,15 +108,15 @@ const Footer = () => {
 							<p style={{ position:"relative",top:"57px",paddingLeft:"10px",fontSize:"20px",fontFamily:"Times New Roman"}}>Imperial Family Salon</p>
 						</div>
 						<div class="media-icons">
-							<a
+						<a
 								class="facebook social"
 								target="_blank"
-								href="https://www.facebook.com/mangal.pagare/"
+								href="tel:+918369650620"
 								rel="noreferrer"
 							>
 								<i>
 									{" "}
-									<FontAwesomeIcon icon={faFacebook} size="2x" />
+									<FaPhoneAlt size="28px" style={{position:"relative",bottom:"5px"}}/>
 								</i>
 							</a>
 							<a
@@ -141,20 +147,26 @@ const Footer = () => {
 						<ul class="box">
 							<li class="link_name">Contact</li>
 							<li>
-								<p style={{color:"white",fontSize:"12px"}}>
+								<a href="tel:+919920422894">
+								<p className="footer-ele">
 									9920422894</p>
+								</a>
 							</li>
 							<li>
-								<p style={{color:"white",fontSize:"12px"}}>8369650620</p>
+								<a href="tel:+918369650620">
+								<p className="footer-ele">8369650620</p>
+								</a>
 							</li>
 							<li>
-								<p style={{color:"white",fontSize:"12px"}}>imperialfamilysalon@gmail .com</p>
+								<a href="mailto:imperialfamilysalon@gmail.com">
+								<p className="footer-ele">imperialfamilysalon@gmail.com</p>
+								</a>
 							</li>
 						</ul>
 						<ul class="box">
 							<li class="link_name">Owner</li>
 							<li>
-								<p style={{color:"white",fontSize:"12px"}}>Mangal Anil Pagare</p>
+								<p style={{fontSize:"12px"}} className="own-name">Mangal Anil Pagare</p>
 							</li>
 						</ul>
 						<ul class="box">
