@@ -45,7 +45,7 @@ export default function Services() {
       <Carousel.Item>
         <div className='card-outer'>
         <Card imgsrc={'https://img.freepik.com/free-photo/beautiful-keratin-treated-hair_23-2149332492.jpg'} title={'Keratin'}/>
-          <Card imgsrc={'https://post.healthline.com/wp-content/uploads/2020/08/732x549_THUMBNAIL_The-Cosmetic-Use-of-Botulinum-Toxin.jpg'} title={'Botox'}/>
+          <Card imgsrc={'https://static-bebeautiful-in.unileverservices.com/Everything-you-need-to-know-about-botox-hair-treatment_2_0.jpg'} title={'Botox'}/>
           <Card imgsrc={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFgrPN1ad8_0dk4wYz8Fp4buXLtiAMxh7a6_7siECW79L3FPvdb3zvVQwWJIgcoZuIBDk&usqp=CAU'} title={'Hairfall Treatment'}/>
           <Card imgsrc={'https://images.hindustantimes.com/img/2022/08/25/550x309/Fa7k2viUUAUPvOU_1661417231202_1661417247169_1661417247169.jpg'} title={'Dandruff Treatment'}/>
         </div>
@@ -113,7 +113,7 @@ export default function Services() {
       <Carousel.Item>
       <div className='card-outer'>
       <Card imgsrc={'https://img.freepik.com/free-photo/beautiful-keratin-treated-hair_23-2149332492.jpg'} title={'Keratin'}/>
-          <Card imgsrc={'https://post.healthline.com/wp-content/uploads/2020/08/732x549_THUMBNAIL_The-Cosmetic-Use-of-Botulinum-Toxin.jpg'} title={'Botox'}/>
+          <Card imgsrc={'https://static-bebeautiful-in.unileverservices.com/Everything-you-need-to-know-about-botox-hair-treatment_2_0.jpg'} title={'Botox'}/>
         </div>
       </Carousel.Item>
       <Carousel.Item>

@@ -133,7 +133,7 @@ export default function Packages() {
                 <p className='package-item'>+</p>
                 <p className='package-item'>Bleach/D Tan</p>
                 <p className='package-item'>+</p>
-                <p className='package-item'>Rica Wax Full Hands Half Leg</p>
+                <p className='package-item'>Full Hand Wax & Half Leg Wax</p>
                 <p className='package-item'>+</p>
                 <p className='package-item'>Underarm</p>
             </div>
