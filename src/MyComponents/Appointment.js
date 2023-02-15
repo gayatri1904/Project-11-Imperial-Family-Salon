@@ -120,7 +120,7 @@ export default function Appointment() {
                       </FormControl>
                     </Box>
                     <div className='formInput' style={{height:"120px"}}>
-                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
+                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)} required></textarea>
                     </div>
                     <button className="buttonok" id="send" onclick="Submit()">
                     Submit
@@ -166,7 +166,7 @@ export default function Appointment() {
                       </FormControl>
                     </Box>
                     <div className='formInput' style={{height:"120px"}}>
-                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)}></textarea>
+                        <textarea rows = "5" cols = "60" name = "Service" placeholder='Enter Service/Package Name' className='messageField' value={service} onChange={(e)=>setService(e.target.value)} required></textarea>
                     </div>
                     <button className="buttonok" id="send" onclick="Submit()">
                     Submit

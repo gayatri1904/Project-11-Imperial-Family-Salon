@@ -77,7 +77,7 @@ export default function Feedback() {
                     />
                     ))}
                     <div className='formInput' style={{height:"120px"}}>
-                        <textarea rows = "5" cols = "60" name = "Feedback" placeholder='Your Feedback' className='messageField' value={feedback} onChange={(e)=>setFeedback(e.target.value)}></textarea>
+                        <textarea rows = "5" cols = "60" name = "Feedback" placeholder='Your Feedback' className='messageField' value={feedback} onChange={(e)=>setFeedback(e.target.value)} required></ textarea>
                     </div>
                     <button className="buttonok" id="send" onclick="Submit()">
                     Submit
