@@ -35,7 +35,7 @@ const Footer = () => {
 							<a
 								class="instagram social"
 								target="_blank"
-								href="https://www.instagram.com/tpc.pce/"
+								href="https://www.instagram.com/imperial_family_salon/"
 								rel="noreferrer"
 							>
 								<i class="">

@@ -15,9 +15,6 @@ code {
   font-family: BebasNeue;
   src: url('./MyResources/BebasNeue-Regular.ttf');
 }
-*::-webkit-scrollbar {
-  display: none;
-}
 #root{
   overflow: hidden;
 }

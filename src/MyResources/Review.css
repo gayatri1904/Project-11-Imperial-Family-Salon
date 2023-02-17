@@ -9,7 +9,26 @@
 	text-align: center;
 	color: #fff;
 }
-
+.carousel-control-prev{
+	margin-left: 5px;
+}
+.carousel-control-next{
+	margin-right: 5px;
+}
+.review-carousel .carousel-control-prev{
+	height: 90%;
+}
+.review-carousel .carousel-control-next{
+	height: 90%;
+}
+.review-carousel .carousel-control-prev-icon{
+	transform: rotate(180deg);
+	background-image: url("https://cdn3.iconfinder.com/data/icons/arrows-28/100/Untitled-53-512.png");
+}
+.review-carousel .carousel-control-next-icon{
+	opacity: 70%;
+	background-image: url("https://cdn3.iconfinder.com/data/icons/arrows-28/100/Untitled-53-512.png");
+}
 @media (min-width: 992px) {
 	.testimonials{
 		height: 60vh;
@@ -24,6 +43,9 @@
 	#companytest h2 {
 		min-height: 150px;
 	}
+	.review-carousel .carousel-control-prev-icon{
+		opacity: 70%;
+	}
 }
 @media (max-width: 1280px) {
 	#testimonial h2 {
@@ -34,14 +56,28 @@
 	.hidden {
 		display: none;
 	}
+	
 }
 @media (max-width: 600px) {
 	#testimonials{
 		margin-top: -30%;
 	}
+	.review-carousel .carousel-control-prev{
+		margin-left: 20px;
+	}
+	.review-carousel .carousel-control-next{
+		margin-right: 20px;
+	}
 }
 
-
+@media (min-width:1224px) {
+	.review-carousel .carousel-control-prev{
+		margin-left: 15px;
+	}
+	.review-carousel .carousel-control-next{
+		margin-right: 15px;
+	}
+}
 
 /* .App {
   font-family: sans-serif;
@@ -56,7 +92,7 @@
 	text-align: center;
 	overflow: hidden;
 	margin-top: 25px;
-	pointer-events: none;
+	
   }
   
   .testi-body {
@@ -72,7 +108,7 @@
   }
   
   .testimonials-text {
-	padding: 75px 25px 20px;
+	padding: 75px 25px 50px;
     box-shadow: 0 5px 20px grey;
     border-radius: 15px;
     transition: all 0.3s ease-in-out;
@@ -110,9 +146,9 @@
   .testimonials-text p {
 	height: 6rem;
 	font-size: 25px;
-	line-height: 24px;
+	line-height: 30px;
 	padding: 10px;
-	font-weight: 500;
+	font-weight: 300;
 	text-align: center;
 	color: black;
   }
@@ -129,7 +165,72 @@
     font-family: 'BebasNeue';
     letter-spacing: 0.1rem;
 }
-  
+.google-img{
+	width: 150px !important;
+    margin-bottom: -40px;
+    position: relative;
+    bottom: 10px;
+}
+.review-box{
+	display: flex;
+	width: 88%;
+	height: 150px;
+	box-shadow: 0 5px 20px grey;
+	margin: auto;
+	border-radius: 8px;
+	margin-top: 50px;
+}
+.g-img{
+	width: 130px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.rating-text{
+	font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.rating-value{
+	margin-top: 75px;
+    font-size: 2rem;
+    position: relative;
+    right: 195px;
+    font-weight: bold;
+}
+.rating-star{
+	width: 165px;
+    height: 60px;
+    position: relative;
+    top: 65px;
+    right: 190px;
+    z-index: -1;
+}
+.review-count{
+	position: relative;
+    top: 85px;
+    right: 175px;
+    color: grey;
+	width: 200px;
+}
+.review-btn{
+	height: 60px;
+    background: #197bff;
+    color: white;
+    border: none;
+    width: 170px;
+    font-size: 17px;
+    border-radius: 10px;
+    top: 44px;
+    position: relative;
+    font-weight: bold;
+}
+.btn-div{
+	width: 60%;
+    display: flex;
+    justify-content: right;
+	margin-right: 50px;
+}
   @media only screen and (max-width: 768px) {
 	.testimonials-text p {
 	  height: 14rem;
@@ -146,7 +247,68 @@
 		margin-top: 630px;
 	}
 	.testimonials-body{
-		height: 420px;
+		height: 465px;
+	}
+	.google-img{
+		width: 130px !important;
+		margin-bottom: -40px;
+		position: relative;
+		bottom: 20px;
+	}
+	.g-img{
+		width: 100px;
+		height: 32px;
+		margin-left: 40px;
+		margin-top: 30px;
+	}
+	.rating-text{
+		font-size: 1.2rem;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+	.rating-value{
+		margin-top: 75px;
+		font-size: 1.5rem;
+		position: relative;
+		right: 155px;
+		font-weight: bold;
+	}
+	.rating-star{
+		width: 140px;
+		height: 45px;
+		position: relative;
+		top: 68px;
+		right: 150px;
+		z-index: -1;
+	}
+	.review-count{
+		position: relative;
+		top: 80px;
+		right: 140px;
+		color: grey;
+		min-width: 120px;
+	}
+	.review-btn{
+		height: 50px;
+		background: #197bff;
+		color: white;
+		border: none;
+		width: 180px;
+		font-size: 18px;
+		border-radius: 10px;
+		top: 135px;
+		position: relative;
+		font-weight: bold;
+		right: 435px;
+	}
+	.btn-div{
+		width: 60%;
+		display: flex;
+		justify-content: center;
+		margin-right: 0px;
+	}
+	.review-box{
+		height: 220px;
 	}
   }
   
