@@ -17,7 +17,7 @@ export default function Offers() {
       <h1 className='service-head'>Offers</h1>
       <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-      <img src={offer1} className='offer' alt='image1' style={{width:"90vw",height:"70vh"}}></img>
+      <img src={offer1} className='offer' alt='image1' style={{width:"90vw",height:"600px"}}></img>
       </Carousel.Item>
     </Carousel>
       </MediaQuery>
