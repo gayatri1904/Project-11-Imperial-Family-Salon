@@ -15,7 +15,7 @@ export default function Review() {
       <p className='rating-text'>Rating</p>
       <h1 className='rating-value'>5.0</h1>
       <img src="https://www.citypng.com/public/uploads/preview/rating-review-yellow-5-stars-png-image-11670328685efoicfrjz3.png" alt="" className='rating-star'/>
-      <p className='review-count'>29 reviews</p>
+      <p className='review-count'>31 reviews</p>
       <div className='btn-div'>
         <button className='review-btn' onClick={navToReview}>Write a review</button>
       </div>

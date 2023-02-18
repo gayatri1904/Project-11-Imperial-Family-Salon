@@ -4,7 +4,7 @@ import Services from "./MyComponents/Services";
 // import Staff from "./MyComponents/Staff";
 import Appointment from "./MyComponents/Appointment";
 import Footer from "./MyComponents/Footer";
-// import Offers from "./MyComponents/Offers";
+import Offers from "./MyComponents/Offers";
 import Review from './MyComponents/Review';
 // import FAQ from "./MyComponents/FAQ";
 import Popup from "./MyComponents/Popup";
@@ -22,7 +22,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={[<NavBar/>,<Display/>,<About/>,<Services/>,<Packages/>,<Appointment/>,<Review/>,<Footer/>]} />
+        <Route path="/" element={[<NavBar/>,<Display/>,<About/>,<Offers/>,<Services/>,<Packages/>,<Appointment/>,<Review/>,<Footer/>]} />
         <Route path="/feedback" element={[<NavBar/>,<Feedback/>]} />
         <Route path="/submit" element={<Popup/>} />
         <Route path="/feedsubmit" element={<FeedPopup/>} />
