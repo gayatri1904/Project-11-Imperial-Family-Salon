@@ -18,6 +18,7 @@ export default function Offers() {
   }
   return (
     <div onMouseOver={mouseOver}>
+      {console.log(window.screenY)}
       <center>{isExploding && <ConfettiExplosion width="500" duration={3000} particleCount={150}/>}</center>
       <MediaQuery maxDeviceWidth={600}>
       <h1 className='service-head'>Offers</h1>
